@@ -16,18 +16,8 @@ namespace ClockWorkIT_Challenge {
             string[] productsInCart = userInput.Split(" ");
 
                 foreach (String str in productsInCart)
-                {
-                    
-                    foreach (Product p in products)
-
-
-                        if (str.ToLower() == p.ProductName.ToLower())
-                        {
-
-                            basket.Add(new BasketItem(p.ProductID, p.ProductPrice, p.ProductName));
-
-                        }
-                     
+                {           
+                    foreach (Product p in products) if (str.ToLower() == p.ProductName.ToLower())basket.Add(new BasketItem(p.ProductID, p.ProductPrice, p.ProductName));   
                 }
             
         
@@ -38,18 +28,12 @@ namespace ClockWorkIT_Challenge {
         private static void CalculateCost(List<BasketItem> basket)
         {
             double basketPrice = 0;
-           foreach (BasketItem b in basket)
-            {
-                basketPrice += b.Price;
-                
-            }
-            
-           
+           foreach (BasketItem b in basket) basketPrice += b.Price;
             Console.WriteLine("Subtotal: £{0}", basketPrice);
             double discount = CalculateDiscounts.Calculate(basket);
             double finalTotal = basketPrice - discount;
-            if (discount == 0) { Console.WriteLine("(No Offers available"); }
-            Console.WriteLine("Final Total: " , basketPrice - discount);
+            if (discount == 0) { Console.WriteLine("(No Offers available)"); }
+            Console.WriteLine("Final Total: £{0}" ,Math.Round(finalTotal,2));
 
            
         }
