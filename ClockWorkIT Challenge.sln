@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClockWorkIT Challenge", "ClockWorkIT Challenge\ClockWorkIT Challenge.csproj", "{BDBB3FE5-8F44-47EC-9EBB-C406B82260FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DDB8BA9-7E77-4569-A34A-4D04E261BD20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDBB3FE5-8F44-47EC-9EBB-C406B82260FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBB3FE5-8F44-47EC-9EBB-C406B82260FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBB3FE5-8F44-47EC-9EBB-C406B82260FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBB3FE5-8F44-47EC-9EBB-C406B82260FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2D4452D-6DAA-4804-A44C-426AA464C23D}
+	EndGlobalSection
+EndGlobal
