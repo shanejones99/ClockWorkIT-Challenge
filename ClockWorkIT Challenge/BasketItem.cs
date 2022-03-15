@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClockWorkIT_Challenge
 {
-    class BasketItem
+    public class BasketItem
     {
         public int ProductID { get; set; }
         public double Price { get; set; }

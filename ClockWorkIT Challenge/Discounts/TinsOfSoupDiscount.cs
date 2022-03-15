@@ -29,7 +29,7 @@ namespace ClockWorkIT_Challenge.Discounts
             }
             else return 0;
  
-                 Console.WriteLine("Two tins of soup & half price bread offer: -£" + Math.Round(discount,2));
+                 Console.WriteLine("Two tins of soup & half price bread offer: -£{0}", Math.Round(discount,2));
                 return discount;
             
            

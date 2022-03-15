@@ -15,12 +15,8 @@ namespace ClockWorkIT_Challenge {
 
             string[] productsInCart = userInput.Split(" ");
 
-                foreach (String str in productsInCart)
-                {           
-                    foreach (Product p in products) if (str.ToLower() == p.ProductName.ToLower())basket.Add(new BasketItem(p.ProductID, p.ProductPrice, p.ProductName));   
-                }
-            
-        
+                foreach (String str in productsInCart)  foreach (Product p in products) 
+                    if (str.ToLower() == p.ProductName.ToLower())basket.Add(new BasketItem(p.ProductID, p.ProductPrice, p.ProductName) );
             CalculateCost(basket);
 
         }

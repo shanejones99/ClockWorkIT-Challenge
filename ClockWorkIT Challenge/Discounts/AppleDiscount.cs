@@ -4,17 +4,17 @@ using System.Text;
 
 namespace ClockWorkIT_Challenge.Discounts
 {
-    class AppleDiscount 
+    public class AppleDiscount 
     {
         public static double CalculateAppleDiscount(int numberOfApples)
         {
             if (numberOfApples > 0)
             {
                 double Discounts = numberOfApples * 0.10;
-                Console.WriteLine("Apples 10% Off: " + numberOfApples);
+                Console.WriteLine("Apples 10% Off: X{0)" + numberOfApples);
                 return Discounts;
             }
-            else return 0;
+                return 0;
           
         }
         

@@ -4,9 +4,8 @@ using System.Text;
 
 namespace ClockWorkIT_Challenge
 {
-    class CreateProducts
+   public class CreateProducts
     {
-        private List<Product> products = new List<Product>();
 
         public static List<Product> Create()
         { 
