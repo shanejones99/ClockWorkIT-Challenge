@@ -11,7 +11,7 @@ namespace ClockWorkIT_Challenge.Discounts
             if (numberOfApples > 0)
             {
                 double Discounts = numberOfApples * 0.10;
-                Console.WriteLine("Apples 10% Off: X{0)" + numberOfApples);
+                Console.WriteLine("Apples 10% Off: X{0}" + numberOfApples);
                 return Discounts;
             }
                 return 0;
